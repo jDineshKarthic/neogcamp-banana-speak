@@ -1,9 +1,7 @@
 const btnTranslate = document.querySelector("#btn-translate");
 const txtInput = document.querySelector("#txt-input");
-console.log(txtInput);
-
+const outputDiv = document.querySelector("#output");
 function clickEventHandler(){
-    console.log("clicked");
-    console.log(txtInput.value);
+    outputDiv.innerText = "ajasjsjsjsjs " + txtInput.value;
 };
 btnTranslate.addEventListener("click",clickEventHandler);
